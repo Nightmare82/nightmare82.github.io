@@ -1,3 +1,5 @@
+![alt text](images/RPG_Tools_Banner.jpg "Rpg Tools Banner")
+
 # RpgTools
 
 RpgTools is a set of tools which allow to you create a 2D RPG or supports your existing game by providing tools you can use on top of it.
