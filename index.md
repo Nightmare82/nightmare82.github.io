@@ -15,12 +15,12 @@ If you want to support the development of my tools you can do that via [Patreon]
 ## FAQ
 
 ### Are there any tutorials ?
-I frequently post updates in my Youtube channel : https://www.youtube.com/channel/UCPTY9yJt46Hn_6lmpg8ezhA which also contains a video tutorial playlist which you can find here : https://www.youtube.com/playlist?list=PLEJP6zEoNymUMp8cWQXbi5CPyr3ixTdRl
+I frequently post updates in my [Youtube channel](https://www.youtube.com/channel/UCPTY9yJt46Hn_6lmpg8ezhA) which also contains a video tutorial playlist which you can find [here](https://www.youtube.com/playlist?list=PLEJP6zEoNymUMp8cWQXbi5CPyr3ixTdRl)
 
 Besides that you can find more information in this guide.
 
 ### Where can I get help
-The best places are my Discord channel : https://discord.gg/GJEeeQv3Sp or the PVGames software channel : https://discord.gg/KtnPFeK
+The best place is my [Discord channel](https://discord.gg/GJEeeQv3Sp)
 
 ### Where can I download old versions ?
 If you use the itch.io launcher you can install old versions via Settings->Manager->Switch versions
