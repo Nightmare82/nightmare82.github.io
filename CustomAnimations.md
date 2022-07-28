@@ -32,3 +32,7 @@ For example:
 `RowAnimation_4x3_Fireplace_01.png`
 
 This can be used for a sprite sheet consisting of three fireplace animations consisting of 4 frames, the name will be `Fireplace_01`.
+
+### Texture Editor
+Alternatively you can change the image type in the Texture Editor which you can find in the main menu of the Level Editor.
+When you select your image you can set the type to Animation, configure the frames(X and Y) and toggle if it contains one animation per row or just a single animation.
