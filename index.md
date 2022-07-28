@@ -55,6 +55,9 @@ This is the tutorial for the [Level Editor](LevelEditor.md)
 ## Scripting
 This is the tutorial for the [Scripting Language](Scripting.md)
 
+## Custom animations
+This is the tutorial for [custom animations](CustomAnimations.md)
+
 ## Libraries used
 
 https://github.com/SFML/SFML
