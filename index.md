@@ -44,11 +44,6 @@ This is an example folder setup:
 There are several tools inside the RpgTools executable. The two main tools (Character Creator and Level Editor) can be used with any engine you want, the other tools are mostly meant to be used if you want to use this engine to create your game.
 
 ### Character Creator
-
-With the Character Creator you can choose between all the units the tool has found in the folder(s) you added. You can view animations, configure custom equipment, configure custom colors and other things.
-You can save/load the character configurations using json files so you can easily manage multiple characters.
-Also you can export characters with various options to sprite sheets or export sprite frames.
-
 This is the tutorial for the [Character Editor](CharacterEditor.md)
 
 ### Level Editor
