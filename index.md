@@ -49,6 +49,8 @@ With the Character Creator you can choose between all the units the tool has fou
 You can save/load the character configurations using json files so you can easily manage multiple characters.
 Also you can export characters with various options to sprite sheets or export sprite frames.
 
+This is the tutorial for the [Character Editor](CharacterEditor.md)
+
 ### Level Editor
 This is the tutorial for the [Level Editor](LevelEditor.md)
 
