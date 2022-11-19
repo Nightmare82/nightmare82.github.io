@@ -29,6 +29,8 @@ Here you can see stats about the selected animation like the texture size etc.
 ### Game Animation
 Here you can create a game animation for the selected animation. Game animations can be configured with custom events, custom playback speed etc. if you use Rpg Tools as your game engine.
 
+This is the tutorial for [game animations](GameAnimations.md)
+
 ### Portrait
 Here you can configure how the character portraits should be displayed
 
