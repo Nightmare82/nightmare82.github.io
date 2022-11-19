@@ -11,6 +11,10 @@ When you select a character and an animation you can create a game animation for
 ### Edit events
 You can add new events by clicking on the `+` button of the `Events` property.
 
+You can delete or duplicate events via right click on an existing event:
+
+![alt text](images/CharacterEditor_GameAnimation_ContextMenu.png "Event context menu")
+
 For each event you can edit its properties.
 
 | Property | Description |
