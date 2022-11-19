@@ -39,3 +39,19 @@ Here you can configure animation states for your game (if you use Rpg Tools as t
 
 ### Sounds
 Lets you define special sounds like hit sounds for your character.
+
+## Equipment Menu
+
+![alt text](images/CharacterEditor_Equipment.png "Units")
+
+### Equipment
+Here you can see a list of all equipment parts compatible with the current character. You can equip items by clicking on them.
+
+### Current Equipment
+Here you can see the list of currently equipped items, change the order(using the arrow buttons) and change their properties(e.g. color or HSV)
+
+
+## Sprite Menu+
+Here you can see a live preview of the current sprite with all equipment parts and evens configured in game animations(e.g. VFX / SFX)
+In the settings menu you can change the scale and the background color.
+You can also toggle looping of the animation, pause it and see the current frame index(Which can be changed manually while paused).
