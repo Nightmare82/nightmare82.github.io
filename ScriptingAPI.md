@@ -461,7 +461,6 @@
 - [gameEventType.UnitDied](#gameeventtypeunitdied)
 - [gameEventType.VideoFinished](#gameeventtypevideofinished)
 
-
 # Ability
 
 ## displayName
