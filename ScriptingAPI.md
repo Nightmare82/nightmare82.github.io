@@ -10,7 +10,7 @@
   - [abilities](#abilities)
   - [getAbilityByName](#getabilitybyname)
 - [AbilityReference](#abilityreference)
-  - [Ability](#ability-2)
+  - [ability](#ability-2)
   - [guid](#guid-1)
 - [AnimationMode](#animationmode)
 - [AnimationMode.Loop](#animationmodeloop)
@@ -93,6 +93,8 @@
 - [Item](#item)
   - [displayName](#displayname-2)
   - [equip](#equip)
+  - [getStat](#getstat)
+  - [getStatByName](#getstatbyname)
   - [imagePath](#imagepath-1)
   - [name](#name-5)
 - [ItemManager](#itemmanager)
@@ -104,6 +106,19 @@
 - [ItemStack](#itemstack)
   - [count](#count)
   - [item](#item-2)
+- [ItemStat](#itemstat)
+  - [displayName](#displayname-3)
+  - [hasIcon](#hasicon)
+  - [iconPath](#iconpath-1)
+  - [id](#id)
+  - [name](#name-6)
+- [ItemStatManager](#itemstatmanager)
+  - [getStatByGuid](#getstatbyguid)
+  - [getStatByName](#getstatbyname-1)
+  - [stats](#stats)
+- [ItemStatReference](#itemstatreference)
+  - [guid](#guid-6)
+  - [stat](#stat)
 - [LoadingScreenData](#loadingscreendata)
   - [text](#text-2)
   - [texture](#texture)
@@ -112,7 +127,7 @@
   - [currentLanguage](#currentlanguage)
   - [getTextByGuid](#gettextbyguid)
 - [LocalizedTextReference](#localizedtextreference)
-  - [guid](#guid-6)
+  - [guid](#guid-7)
   - [text](#text-3)
 - [LootComponent](#lootcomponent)
   - [items](#items-2)
@@ -122,7 +137,7 @@
   - [asPathLayer](#aspathlayer)
   - [asTileLayer](#astilelayer)
   - [isScreenLayer](#isscreenlayer)
-  - [name](#name-6)
+  - [name](#name-7)
   - [visible](#visible)
 - [MeshObjectData](#meshobjectdata)
   - [animationIndex](#animationindex)
@@ -132,9 +147,9 @@
   - [z](#z)
 - [Object](#object-1)
   - [center](#center)
-  - [displayName](#displayname-3)
+  - [displayName](#displayname-4)
   - [fragmentShader](#fragmentshader)
-  - [id](#id)
+  - [id](#id-1)
   - [identifier](#identifier)
   - [interactionCursor](#interactioncursor)
   - [loot](#loot)
@@ -177,12 +192,12 @@
   - [setVelocity](#setvelocity)
   - [stop](#stop)
 - [PrefabObjectReference](#prefabobjectreference)
-  - [guid](#guid-7)
+  - [guid](#guid-8)
 - [Quest](#quest)
   - [autoStart](#autostart)
-  - [displayName](#displayname-4)
-  - [guid](#guid-8)
-  - [name](#name-7)
+  - [displayName](#displayname-5)
+  - [guid](#guid-9)
+  - [name](#name-8)
   - [showInQuestLog](#showinquestlog)
   - [text](#text-4)
 - [QuestInstance](#questinstance)
@@ -197,7 +212,7 @@
   - [neededCount](#neededcount)
   - [text](#text-5)
 - [QuestReference](#questreference)
-  - [guid](#guid-9)
+  - [guid](#guid-10)
   - [quest](#quest-2)
 - [QuestState](#queststate)
 - [QuestState.Active](#queststateactive)
@@ -205,10 +220,10 @@
 - [QuestState.Inactive](#queststateinactive)
 - [QuestState.Reachable](#queststatereachable)
 - [Resource](#resource)
-  - [displayName](#displayname-5)
-  - [guid](#guid-10)
-  - [iconPath](#iconpath-1)
-  - [name](#name-8)
+  - [displayName](#displayname-6)
+  - [guid](#guid-11)
+  - [iconPath](#iconpath-2)
+  - [name](#name-9)
 - [ResourceContainer](#resourcecontainer)
   - [addResourceAmount](#addresourceamount)
   - [getResourceAmount](#getresourceamount)
@@ -218,12 +233,12 @@
   - [getResourceByName](#getresourcebyname)
   - [resources](#resources-1)
 - [ResourceReference](#resourcereference)
-  - [guid](#guid-11)
+  - [guid](#guid-12)
   - [resource](#resource-1)
 - [Savegame](#savegame)
   - [heroLevel](#herolevel)
   - [level](#level)
-  - [name](#name-9)
+  - [name](#name-10)
   - [screenshot](#screenshot)
 - [ScriptValue](#scriptvalue)
   - [description](#description)
@@ -234,12 +249,13 @@
   - [getIntValue](#getintvalue)
   - [getStringValue](#getstringvalue)
   - [getVector2Value](#getvector2value)
-  - [name](#name-10)
+  - [name](#name-11)
   - [objectID](#objectid-1)
   - [setFloatValue](#setfloatvalue)
   - [setValue](#setvalue)
 - [ScriptValueContainer](#scriptvaluecontainer)
   - [findValue](#findvalue)
+  - [setFloatValue](#setfloatvalue-1)
   - [setValue](#setvalue-1)
   - [values](#values)
 - [ScriptValueMetaData](#scriptvaluemetadata)
@@ -254,28 +270,26 @@
 - [ShowAnimationType.SlideToLeft](#showanimationtypeslidetoleft)
 - [ShowAnimationType.SlideToRight](#showanimationtypeslidetoright)
 - [ShowAnimationType.SlideToTop](#showanimationtypeslidetotop)
-- [Stat](#stat)
-  - [displayName](#displayname-6)
-  - [hasIcon](#hasicon)
-  - [iconPath](#iconpath-2)
-  - [id](#id-1)
+- [Stat](#stat-1)
+  - [displayName](#displayname-7)
+  - [hasIcon](#hasicon-1)
+  - [iconPath](#iconpath-3)
+  - [id](#id-2)
   - [maxValueStat](#maxvaluestat)
-  - [name](#name-11)
+  - [name](#name-12)
 - [StatManager](#statmanager)
-  - [getStatByGuid](#getstatbyguid)
-  - [getStatByName](#getstatbyname)
-  - [stats](#stats)
+  - [getStatByGuid](#getstatbyguid-1)
+  - [getStatByName](#getstatbyname-2)
+  - [stats](#stats-1)
 - [StatReference](#statreference)
-  - [guid](#guid-12)
+  - [guid](#guid-13)
   - [maxStat](#maxstat)
-  - [stat](#stat-1)
+  - [stat](#stat-2)
 - [TGUI\_Vector2](#tgui_vector2)
   - [x](#x-1)
   - [y](#y-1)
 - [TagReferenceList](#tagreferencelist)
   - [containsTag](#containstag)
-- [Test](#test)
-  - [colorados](#colorados)
 - [TileLayer](#tilelayer)
   - [fill](#fill)
   - [getHeightOffset](#getheightoffset)
@@ -325,8 +339,8 @@
   - [executeDialogReply](#executedialogreply)
   - [findNearestEnemy](#findnearestenemy)
   - [finishDialog](#finishdialog)
-  - [getStat](#getstat)
-  - [getStatByName](#getstatbyname-1)
+  - [getStat](#getstat-1)
+  - [getStatByName](#getstatbyname-3)
   - [hasAbility](#hasability)
   - [heal](#heal)
   - [hit](#hit)
@@ -373,17 +387,18 @@
   - [useAbilityAtIndex](#useabilityatindex)
   - [useInventoryItem](#useinventoryitem)
   - [useSelectedAbilityAt](#useselectedabilityat)
+  - [weapon](#weapon)
 - [UnitEffect](#uniteffect)
-  - [displayName](#displayname-7)
-  - [guid](#guid-13)
-  - [iconPath](#iconpath-3)
-  - [name](#name-12)
+  - [displayName](#displayname-8)
+  - [guid](#guid-14)
+  - [iconPath](#iconpath-4)
+  - [name](#name-13)
 - [UnitEffectManager](#uniteffectmanager)
   - [getUnitEffectByName](#getuniteffectbyname)
   - [unitEffects](#uniteffects)
 - [UnitEffectReference](#uniteffectreference)
   - [UnitEffect](#uniteffect-1)
-  - [guid](#guid-14)
+  - [guid](#guid-15)
 - [UnitTeam](#unitteam)
 - [UnitTeam.Enemy](#unitteamenemy)
 - [UnitTeam.Neutral](#unitteamneutral)
@@ -414,7 +429,7 @@
   - [loadTexture](#loadtexture)
   - [maximum](#maximum)
   - [minimum](#minimum)
-  - [name](#name-13)
+  - [name](#name-14)
   - [onAnimationFinished](#onanimationfinished)
   - [onClick](#onclick)
   - [onFocus](#onfocus)
@@ -442,13 +457,6 @@
   - [tooltip](#tooltip)
   - [value](#value)
   - [visible](#visible-1)
-- [colors](#colors)
-- [colors.black](#colorsblack)
-- [colors.blue](#colorsblue)
-- [colors.green](#colorsgreen)
-- [colors.red](#colorsred)
-- [colors.white](#colorswhite)
-- [colors.yellow](#colorsyellow)
 - [gameEventType](#gameeventtype)
 - [gameEventType.Custom](#gameeventtypecustom)
 - [gameEventType.HeroSelectionChanged](#gameeventtypeheroselectionchanged)
@@ -460,6 +468,7 @@
 - [gameEventType.QuestStateChanged](#gameeventtypequeststatechanged)
 - [gameEventType.UnitDied](#gameeventtypeunitdied)
 - [gameEventType.VideoFinished](#gameeventtypevideofinished)
+
 
 # Ability
 
@@ -553,7 +562,7 @@ function AbilityManager.getAbilityByName(self: AbilityManager, name: string)
 
 # AbilityReference
 
-## Ability
+## ability
 
 
 ```lua
@@ -1226,6 +1235,34 @@ function Item.equip(self: Item)
 
  Equip item
 
+## getStat
+
+
+```lua
+function Item.getStat(self: Item, stat: ItemStat)
+  -> Value: number
+```
+
+ returns a stat value of a specified stat
+
+@*param* `stat` — Stat
+
+@*return* `Value` — of the stat
+
+## getStatByName
+
+
+```lua
+function Item.getStatByName(self: Item, statName: string)
+  -> Value: number
+```
+
+ returns a stat value by its stat name
+
+@*param* `statName` — name of the stat
+
+@*return* `Value` — of the stat
+
 ## imagePath
 
 
@@ -1315,6 +1352,115 @@ Item
 ```
 
 Returns the item of this reference
+
+
+---
+
+# ItemStat
+
+## displayName
+
+
+```lua
+string
+```
+
+Display name of the item stat
+
+## hasIcon
+
+
+```lua
+boolean
+```
+
+Returns if this item stat has an icon
+
+## iconPath
+
+
+```lua
+string
+```
+
+Icon path of this item stat
+
+## id
+
+
+```lua
+Guid
+```
+
+ID of the item stat
+
+## name
+
+
+```lua
+string
+```
+
+Name of the item stat
+
+
+---
+
+# ItemStatManager
+
+## getStatByGuid
+
+
+```lua
+function ItemStatManager.getStatByGuid(self: ItemStatManager, guid: Guid)
+```
+
+ Returns an item stat by its name
+
+@*param* `guid` — Guid of the stat
+
+## getStatByName
+
+
+```lua
+function ItemStatManager.getStatByName(self: ItemStatManager, name: string)
+```
+
+ Returns an item stat by its name
+
+@*param* `name` — Name of the stat
+
+## stats
+
+
+```lua
+ItemStat[]
+```
+
+All item stats
+
+
+---
+
+# ItemStatReference
+
+## guid
+
+
+```lua
+Guid
+```
+
+Guid of the stat
+
+## stat
+
+
+```lua
+ItemStat|nil
+```
+
+Returns the item stat of this reference
 
 
 ---
@@ -1807,15 +1953,13 @@ function PathLayer.getWorldPositionAt(self: PathLayer, x: integer, y: integer)
 
 
 ```lua
-function PathLayer.isWalkable(self: PathLayer, x: integer, y: integer)
+function PathLayer.isWalkable(self: PathLayer, position: Vector2)
   -> boolean
 ```
 
- returns if the specified path coordinate is walkable
+ returns if the specified world position is walkable
 
-@*param* `x` — X tile coordinate
-
-@*param* `y` — Y tile coordinate
+@*param* `position` — world position
 
 ## mapSizeX
 
@@ -2499,6 +2643,17 @@ function ScriptValueContainer.findValue(self: ScriptValueContainer, name: string
 
 @*param* `name` — Name of the value
 
+## setFloatValue
+
+
+```lua
+function ScriptValueContainer.setFloatValue(self: ScriptValueContainer, name: string, value: number)
+```
+
+ sets a float value by name
+
+@*param* `name` — Name of the value
+
 ## setValue
 
 
@@ -2766,18 +2921,6 @@ function TagReferenceList.containsTag(self: TagReferenceList, tag: string)
  Returns if the tag list contains a specific tag
 
 @*param* `tag` — Tag name
-
-
----
-
-# Test
-
-## colorados
-
-
-```lua
-colors
-```
 
 
 ---
@@ -3769,6 +3912,15 @@ function Unit.useSelectedAbilityAt(self: Unit, position: Vector2)
 
 @*param* `position` — Target position of the ability
 
+## weapon
+
+
+```lua
+Item|nil
+```
+
+Returns the first weapon in the unit equipment
+
 
 ---
 
@@ -4415,52 +4567,6 @@ boolean
 ```
 
 Visible state of the widget
-
-
----
-
-# colors
-
-```lua
-{
-    black: integer = 0,
-    red: integer = 2,
-    green: integer = 4,
-    yellow: integer = 8,
-    blue: integer = 16,
-    white: integer = 32,
-}
-```
-
-
----
-
-# colors.black
-
-
----
-
-# colors.blue
-
-
----
-
-# colors.green
-
-
----
-
-# colors.red
-
-
----
-
-# colors.white
-
-
----
-
-# colors.yellow
 
 
 ---

@@ -5,6 +5,7 @@
   - [Level scripts](#level-scripts)
   - [Unit scripts](#unit-scripts)
   - [Object scripts](#object-scripts)
+  - [UI Widget scripts](#ui-widget-scripts)
   - [Debugging](#debugging)
   - [Global functions](#global-functions)
     - [getCurrentDeltaTime](#getcurrentdeltatime)
@@ -94,6 +95,15 @@ Example:
 
 ```lua
 object.opacity = 0.5
+```
+
+## UI Widget scripts
+When you run a script for a specific UI widget you can access this widget using the variable **widget** 
+
+Example:
+
+```lua
+widget.visible = true
 ```
 
 ## Debugging
