@@ -51,7 +51,7 @@ Here you can see a list of all equipment parts compatible with the current chara
 Here you can see the list of currently equipped items, change the order(using the arrow buttons) and change their properties(e.g. color or HSV)
 
 
-## Sprite Menu+
+## Sprite Menu
 Here you can see a live preview of the current sprite with all equipment parts and evens configured in game animations(e.g. VFX / SFX)
 In the settings menu you can change the scale and the background color.
 You can also toggle looping of the animation, pause it and see the current frame index(Which can be changed manually while paused).

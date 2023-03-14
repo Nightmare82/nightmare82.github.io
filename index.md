@@ -55,6 +55,9 @@ This is the tutorial for the [Scripting Language](Scripting.md)
 ## Custom animations
 This is the tutorial for [custom animations](CustomAnimations.md)
 
+## Custom models
+This is the tutorial for [custom models](CustomModels.md)
+
 ## Localization
 This is the tutorial for [Localization](Localization.md)
 
