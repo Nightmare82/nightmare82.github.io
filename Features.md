@@ -7,7 +7,7 @@
 | ✅ | Automatically load all sprites from PvGames |
 | ✅ | View all animations of the animated models |
 | ✅ | Create custom sprites |
-| ✅ | Export sprites with a lot of options |## Character Editor
+| ✅ | Export sprites with a lot of options |
 
 
 ## Level Editor
