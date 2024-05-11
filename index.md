@@ -14,6 +14,8 @@ You can always download the latest version of the tools [here](https://nightmare
 
 If you want to support the development of my tools you can do that via [Patreon](https://www.patreon.com/user?u=32227148&fan_landing=true)
 
+You can find a list of highlevel features [here](Features.md)
+
 ## FAQ
 
 ### Are there any tutorials ?
@@ -58,8 +60,11 @@ This is the tutorial for [custom animations](CustomAnimations.md)
 ## Custom models
 This is the tutorial for [custom models](CustomModels.md)
 
-## Localization
-This is the tutorial for [Localization](Localization.md)
+## Game Localization
+This is the tutorial for the [Game Localization](GameLocalization.md)
+
+## Tool Localization
+This is the tutorial for [Tool Localization](ToolLocalization.md)
 
 ## Libraries used
 
