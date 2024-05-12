@@ -37,3 +37,5 @@
 | ✅ | Configure character classes with stats, abilities etc. |
 | ✅ | Configure input actions for all your gameplay actions |
 | ✅ | Add custom Lua scripts for heroes and global scripts |
+| ✅ | Configure custom cutscenes for your game |
+| ✅ | Play videos in your game |
