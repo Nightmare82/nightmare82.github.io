@@ -66,6 +66,9 @@ This is the tutorial for the [Game Localization](GameLocalization.md)
 ## Tool Localization
 This is the tutorial for [Tool Localization](ToolLocalization.md)
 
+## Video Playback
+This is the tutorial for [Video Playback](VideoPlayback.md)
+
 ## Libraries used
 
 https://github.com/SFML/SFML
@@ -80,12 +83,4 @@ https://github.com/ThePhD/sol2
 
 https://github.com/nlohmann/json
 
-https://github.com/fmtlib/fmt
-
-https://github.com/effekseer/Effekseer
-
-https://bitbucket.org/wbenny/ziplib
-
 https://github.com/erincatto/box2d
-
-https://github.com/assimp/assimp
