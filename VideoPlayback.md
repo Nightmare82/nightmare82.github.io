@@ -19,7 +19,7 @@ highest. You may use `-b:v` to set a fixed bitrate instead; e.g.
 `-b:v 2000k` for 2000 kbit/s. Please refer to the 
 [ffmpeg documentation](http://ffmpeg.org/ffmpeg.html#Options) for more details.
 
-See https://github.com/phoboslab/pl_mpeg/blob/master/README.md for more details
+See [pl_mpeg documentation](https://github.com/phoboslab/pl_mpeg/blob/master/README.md) for more details
 
 ### Playing videos
 You can start videos via action "Start Video", via Cutscene or via Lua scripting
